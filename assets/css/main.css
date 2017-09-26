@@ -1,0 +1,38 @@
+/************ CUSTOM GENERAL STYLES ***********************/
+
+.flex-center {
+  justify-content: center;
+}
+
+/************ NAVIGTAION ***********************/
+
+nav.navbar {
+  height: 56px;
+}
+
+li:last-of-type {
+  padding-right: 0;
+  margin-right: 30px;
+}
+
+.nav-item{
+  padding-right: 50px;
+}
+
+.nav-item {
+  border-bottom: 1px solid #E5E5E5;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 10px 0;
+}
+
+/***** ADD BORDER BOTTOM TO ACTIVE NAV ITEM *******/
+.active >.nav-link {
+  color: #196DB4;
+  /*box-shadow: inset 0px -2px 0px #196DB4; */
+  border-bottom: 2px solid #196DB4;
+}
+
+
