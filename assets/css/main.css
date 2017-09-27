@@ -1,18 +1,46 @@
-/************ CUSTOM GENERAL STYLES ***********************/
 
-.flex-center {
-  justify-content: center;
+/*
+max-width: 1800px;
+*/
+
+
+body {
+  overflow-x: hidden;
 }
 
+h1 {
+  font-size: 1.875em; /* 30px */
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #006FB3; /* blue */
+  letter-spacing: 0.3em; /* 13px */
+}
+h2 {
+  color: #0A0A0A; /* black */
+  font-size: 1.25em; /* 20px */
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+p {
+  color:#8F8F8F;
+}
 /************ NAVIGTAION ***********************/
+.navbar-nav,
+.nav-link,
+.logo  {
+  font-size: 12px;
+  font-weight: 900;
+}
 
 nav.navbar {
   height: 56px;
+  padding: 0;
 }
 
 li:last-of-type {
   padding-right: 0;
-  margin-right: 30px;
+  margin-right: 45px;
 }
 
 .nav-item{
@@ -28,11 +56,73 @@ li:last-of-type {
   padding: 10px 0;
 }
 
-/***** ADD BORDER BOTTOM TO ACTIVE NAV ITEM *******/
+/* ADD BORDER BOTTOM TO ACTIVE NAV ITEM */
 .active >.nav-link {
   color: #196DB4;
   /*box-shadow: inset 0px -2px 0px #196DB4; */
   border-bottom: 2px solid #196DB4;
 }
+
+/************ HERO ***********************/
+.hero-text {
+  padding: 15% 0;
+}
+img.hero-image {
+  width: 500px;
+/*  margin-left: 90px;*/
+}
+
+/************ SECTION 1: CODING IS EASY ***********************/
+background
+
+/************ CUSTOM STYLES ***********************/
+
+h1.hero-title {
+  font-size: 5em; /* 80px */
+  color:#0A0A0A;
+  font-style: italic;
+  letter-spacing: normal;
+ 
+}
+h2.hero-subtitle {
+  font-size: 1.875em; /* 30px */
+  color: #006FB3; /* blue */
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: .75em;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+.flex-center {
+  justify-content: center;
+}
+.center-text {
+  text-align: center;
+}
+
+div.light__bg---blue {
+  background-color: #EAEFF8;
+  width: 100%;
+}
+/*Section Border--Diagonal Down left*/
+svg.border__diagonal--bottom {
+  display: block;
+  width: 100%;
+  min-height: 90px;
+  transform-style: preserve-3d;
+  fill: #EAEFF8;
+  background: #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 717px;
+  z-index: -1;
+}
+
+
 
 
